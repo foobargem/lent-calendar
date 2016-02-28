@@ -1,0 +1,9 @@
+[uwsgi]
+http = 127.0.0.1:8000
+chdir = /app/lentcalendar
+module = settings.wsgi:application
+master = True
+pidfile = /tmp/lentcalendar.pid
+vacuum = True
+logger = file:/tmp/lentcalendar.log
+daemonize = /tmp/lentcalendar_uwsgi.log

@@ -60,3 +60,7 @@ target/
 
 #Ipython Notebook
 .ipynb_checkpoints
+
+web/settings/production.py
+web/uwsgi.ini
+
